@@ -90,23 +90,23 @@ $(document).ready(() => {
         
         
                 setTimeout(audio, 2000)
-                setTimeout(type, 1500)
-                setTimeout(type2, 2500)
-                setTimeout(type3, 3500)
-                setTimeout(type4, 4500)
-                setTimeout(type5, 5500)
-                setTimeout(type6, 6500)
-                setTimeout(type7, 7500)
-                setTimeout(type8, 8500)
-                setTimeout(type9, 9500)
-                setTimeout(type10, 10500)
-                setTimeout(type11, 11500)
-                setTimeout(type5, 13500)
+                setTimeout(type, 2000)
+                setTimeout(type2, 4000)
+                setTimeout(type3, 6000)
+                setTimeout(type4, 8000)
+                setTimeout(type5, 9000)
+                setTimeout(type6, 10000)
+                setTimeout(type7, 12000)
+                setTimeout(type8, 14000)
+                setTimeout(type9, 16000)
+                setTimeout(type10, 18000)
+                setTimeout(type11, 20000)
+                setTimeout(type5, 22000)
 
-                setTimeout(type12, 14500)
+                setTimeout(type12, 25000)
                 setTimeout(type5, 16500)
 
-                setTimeout(type13, 17500)
+                setTimeout(type13, 28000)
             })
 
 
@@ -119,3 +119,4 @@ $(document).ready(() => {
     })
 
 })
+
