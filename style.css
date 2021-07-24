@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh ;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.backgrounde {
+    display: block;
+    width: 100%;
+    min-height: 100vh ;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background: black;
+    
+}
+
+.moon{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #d8b01d;
+    
+    filter: blur();
+    -webkit-filter: blur();
+}
+.moon2{
+    position: absolute;
+    top: 135px;
+    left: 185px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: black;
+    transition: all 6s ease;
+    
+}
+
+
+
+.star {
+    position: absolute;
+    width: 3.5px;
+    height: 3.5px;
+    border-radius: 100% ;
+    background: rgb(238, 232, 153);
+    
+    animation: star 0.3s ease infinite;
+   
+}
+.star1{
+    top: 10px;
+    left: 700px;
+    transition-delay: 0.5s;
+}
+.star2{
+    top: 450px;
+    left: 1200px;
+    transition-delay: 0.5s;
+
+}
+.star3{
+    top: 330px;
+    left: 150px;
+    transition-delay: 0.5s;
+
+}
+.star4{
+    top: 80px;
+    left: 1200px;
+    transition-delay: 0.5s;
+
+}
+.star5{
+    top: 350px;
+    left: 700px;
+    transition-delay: 0.5s;
+
+}
+.star6{
+    top: 600px;
+    left: 500px;
+    transition-delay: 0.5s;
+
+}
+.star7{
+    top: 450px;
+    left: 100px;
+    transition-delay: 0.5s;
+
+}
+.star8{
+    top: 650px;
+    left: 1000px;
+    transition-delay: 0.5s;
+
+}
+.star9{
+    top: 300px;
+    left: 750px;
+    transition-delay: 0.5s;
+
+}
+.star10{
+    top: 450px;
+    left: 120px;
+    transition-delay: 0.5s;
+
+}
+.star11{
+    top: 730px;
+    left: 10px;
+}
+.star12{
+    top: 800px;
+    left: 1000px;
+}
+.star13{
+    top: 450px;
+    left: 750px;
+}
+.star14{
+    top: 650px;
+    left: 140px;
+}
+.star15{
+    top: 50px;
+    left: 80px;
+}
+.star16{
+    top: 670px;
+    left: 390px;
+}
+.star17{
+    top: 120px;
+    left: 720px;
+}
+.star18{
+    top: 470px;
+    left: 1130px;
+}
+.star19{
+    top: 320px;
+    left: 190px;
+}
+.star20{
+    top: 140px;
+    left: 1160px;
+}
+.star21{
+    top: 490px;
+    left: 700px;
+}
+.star22{
+    top: 610px;
+    left: 630px;
+}
+.star23{
+    top: 300px;
+    left: 400px;
+}
+.star24{
+    top: 453px;
+    left: 400px;
+    transition-delay: 0.4s;
+}
+.star25{
+    top: 500px;
+    left: 820px;
+    transition-delay: 0.1s;
+
+}
+.star26{
+    top: 420px;
+    left: 1270px;
+    transition-delay: 0.1s;
+
+}
+.star27{
+    top: 70px;
+    left: 10px;
+    transition-delay: 0.1s;
+
+}
+.star28{
+    top: 820px;
+    left: 1210px;
+    transition-delay: 0.1s;
+
+}
+.star29{
+    top: 560px;
+    left: 740px;
+    transition-delay: 0.1s;
+
+}
+.star30{
+    top: 650px;
+    left: 570px;
+    transition-delay: 0.1s;
+
+}
+.star31{
+    top: 700px;
+    left: 1280px;
+    transition-delay: 0.1s;
+
+}
+.star32{
+    top: 60px;
+    left: 390px;
+    transition-delay: 0.1s;
+
+}
+
+@keyframes star {
+    0%{
+        height: 4px;
+        width: 4px;
+        opacity: 1;
+    }
+    50%{
+        height: 5px;
+        width: 5px;
+        opacity: 0.5;
+    }
+    100%{
+        height: 3px;
+        width: 3px;
+        opacity: 1;
+    }
+}
+
+.maine {
+    position: absolute;
+
+    background: rgb(0, 55, 77);
+    width: 100%;
+    min-height: 100vh ;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+    transition: all 15s ease-in-out;
+    
+}
+.maine:hover {
+    background: rgba(0, 55, 77, 0);
+
+}
+
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+    padding: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 11.5px;
+    background: transparent;
+    border: none;
+    transition: all 1s ease;
+    
+
+   
+}
+.btn:hover {
+    background:  rgba(0, 55, 77, 0.182) ;
+    border-radius: 50%;
+}
+
+
+.poem, .poem2, .poem3, .poem4, .poem5, .poem6, .poem7, .poem8, .poem9, .poem10, .poem11 {
+    
+    width: 100%;
+    padding: 5px;
+    color: thistle;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.poem12, .poem13 {
+    width: 100%;
+    text-transform: capitalize;
+    color: rgba(220, 20, 60, 0.836);
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+
+
+
+
+

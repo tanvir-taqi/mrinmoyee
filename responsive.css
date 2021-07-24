@@ -1,0 +1,55 @@
+
+@media screen and (max-width:480px){
+    body{
+        width: 480px;
+        min-height: 100vh;
+    }
+    .maine {
+        width: 480px;
+        /* min-height: 100vh ; */
+    }
+    .btn{
+        font-size: 14px;
+    }
+    .poem-c {
+        font-size: 15px;
+    }
+    .poem12, .poem13 {
+        font-size: 18px;
+    }
+    .moon, .moon2 {
+        width: 110px;
+        height: 110px;
+    }
+    .backgrounde {
+        display: block;
+        width: 480px;
+    }
+}
+@media screen and (max-width:768px){
+    body{
+        width: 768px;
+        min-height: 100vh;
+    }
+    .maine {
+        width: 768px;
+        
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .poem-c {
+        font-size: 18px;
+    }
+    .poem12, .poem13 {
+        font-size: 30px;
+    }
+    .moon, .moon2 {
+        width: 110px;
+        height: 110px;
+    }
+    .backgrounde {
+        display: block;
+        width: 768px;
+    }
+}
